@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold mb-4">MOONSINSA</h1>
 
       <p className="text-gray-600 mb-8">
-        
+        Welcome to MOONSINSA!
       </p>
 
       <Link
