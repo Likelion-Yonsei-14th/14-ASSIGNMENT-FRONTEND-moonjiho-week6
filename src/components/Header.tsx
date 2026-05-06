@@ -10,7 +10,7 @@ const cart = useCartStore((state) => state.cart);
         
         {/* 로고 */}
         <Link to="/" className="text-xl font-bold text-gray-900">
-          🛍 Mini Mall
+          🛍 MOONSINSA
         </Link>
 
         {/* 메뉴 */}

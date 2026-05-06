@@ -49,7 +49,7 @@ export default function ProductDetail() {
             className={`px-6 py-3 rounded-lg text-white font-semibold transition
               ${added
                 ? "bg-green-500"
-                : "bg-blue-600 hover:bg-blue-700"
+                : "bg-black hover:bg-gray-800"
               }`}
           >
             {added ? "✓ 담았습니다!" : "🛒 장바구니 담기"}

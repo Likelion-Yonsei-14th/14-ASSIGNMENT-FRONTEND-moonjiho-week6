@@ -46,7 +46,7 @@ export default function Cart() {
             <b>{item.name}</b>
 
             <p className="text-blue-600 font-bold">
-              {item.price.toLocaleString()}원
+              {(item.quantity*item.price).toLocaleString()}원
             </p>
 
             <div className="flex items-center gap-3 mt-2">
@@ -89,7 +89,7 @@ export default function Cart() {
           alert("결제가 완료되었습니다!");
           clearCart();
         }}
-        className="w-full mt-4 bg-blue-600 text-white py-3 rounded font-semibold hover:bg-blue-700"
+        className="w-full mt-4 bg-black text-white py-3 rounded font-semibold hover:bg-gray-800"
       >
         결제하기
       </button>
