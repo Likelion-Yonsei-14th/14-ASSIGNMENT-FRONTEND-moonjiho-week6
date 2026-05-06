@@ -59,7 +59,7 @@ export const products: Product[] = [
   },
   {
     id: 8,
-    name: "워시드 볼캡",
+    name: "볼캡",
     price: 20000,
     image: "https://image.msscdn.net/images/goods_img/20190918/1156575/1156575_2_500.jpg",
     description: "뛰어난 착용감. 베이식한 디자인과 빈티지한 컬러의 코튼 워시드 볼캡.",
