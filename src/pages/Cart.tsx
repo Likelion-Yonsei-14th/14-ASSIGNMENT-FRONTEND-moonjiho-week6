@@ -29,7 +29,15 @@ export default function Cart() {
 
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-6">장바구니</h2>
+      <h2 className="text-2xl font-bold mb-1">장바구니</h2>
+
+      <div className="flex justify-end gap-3 mb-6">
+        <button onClick={() => clearCart()}
+          className="px-3 py-2 border border-gray-400 rounded-lg hover:bg-gray-100 transition"
+        >
+          장바구니 비우기
+        </button>
+      </div>
 
       {cart.map((item, index) => (
         <div

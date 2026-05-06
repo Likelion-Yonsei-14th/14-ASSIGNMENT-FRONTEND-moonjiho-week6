@@ -51,6 +51,14 @@ export const products: Product[] = [
   },
   {
     id: 7,
+    name: "블루종 자켓",
+    price: 139000,
+    image: "https://image.msscdn.net/images/prd_img/202509011057350566037036268b4fd8f0dd24.jpg",
+    description: "미니멀한 집업 형태의 블루종 디자인으로 세련되면서 간결한 디테일을 사용한 스테디셀러 제품.",
+    category: "아우터",
+  },
+  {
+    id: 8,
     name: "버뮤다 팬츠",
     price: 40000,
     image: "https://hander1212.openhost.cafe24.com/web/item/38690_b00c8f73aefc733f.jpg",
@@ -58,7 +66,7 @@ export const products: Product[] = [
     category: "하의",
   },
   {
-    id: 8,
+    id: 9,
     name: "볼캡",
     price: 20000,
     image: "https://image.msscdn.net/images/goods_img/20190918/1156575/1156575_2_500.jpg",
@@ -66,7 +74,7 @@ export const products: Product[] = [
     category: "소품",
   },
   {
-    id: 9,
+    id: 10,
     name: "롱슬리브",
     price: 30000,
     image: "https://image.msscdn.net/thumbnails/images/goods_img/20250819/5335617/5335617_17575704689692_big.jpg?w=1000",
@@ -74,7 +82,7 @@ export const products: Product[] = [
     category: "상의",
   },
   {
-    id: 10,
+    id: 11,
     name: "경량 패딩",
     price: 49900,
     image: "https://image.msscdn.net/thumbnails/images/prd_img/20250827/5369990/detail_5369990_17563584656731_big.jpg?w=1200",
@@ -82,7 +90,7 @@ export const products: Product[] = [
     category: "아우터",
   },
   {
-    id: 11,
+    id: 12,
     name: "아디다스 삼바 OG",
     price: 149000,
     image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT47Ok5IDXE-CSXlw9bhCaN-wTHVeDYUAat2Aedfacu0tTjTeR2znbgZ1i5i-GmOxuEdZ-r2JG5kbCJq65FDV1oRZpPJqCFDB0AxhculB6dnqQ_re5V0FeUtg&usqp=CAc",
@@ -90,7 +98,7 @@ export const products: Product[] = [
     category: "신발",
   },
   {
-    id: 12,
+    id: 13,
     name: "메신저백",
     price: 24000,
     image: "https://image.msscdn.net/images/goods_img/20191107/1216585/1216585_17100370851240_500.jpg",
@@ -98,7 +106,7 @@ export const products: Product[] = [
     category: "가방",
   },
   {
-    id: 13,
+    id: 14,
     name: "벨트",
     price: 15000,
     image: "https://image.msscdn.net/thumbnails/images/goods_img/20191112/1220731/1220731_17073700380718_big.jpg?w=1200",
@@ -106,19 +114,11 @@ export const products: Product[] = [
     category: "소품",
   },
   {
-    id: 14,
+    id: 15,
     name: "양말",
     price: 16000,
     image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQh9lsFaApFqz6EpbpxtA2Yuf_QKpSgCKcmQsy_64vPjkXCirGP76BUU-FuQ2qnjPgIgVwsD8hkKMbumFdYpojOjCIrp95FuoQCWX_krgqeuibGg5HVoxrt&usqp=CAc",
     description: "편안한 착용감을 위해 아치 서포트가 있는 쿠션 크루 삭스",
     category: "소품",
-  },
-  {
-    id: 15,
-    name: "블루종 자켓",
-    price: 139000,
-    image: "https://image.msscdn.net/images/prd_img/202509011057350566037036268b4fd8f0dd24.jpg",
-    description: "미니멀한 집업 형태의 블루종 디자인으로 세련되면서 간결한 디테일을 사용한 스테디셀러 제품.",
-    category: "아우터",
   },
 ];
