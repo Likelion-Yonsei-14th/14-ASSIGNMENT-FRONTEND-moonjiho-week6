@@ -19,7 +19,7 @@ export default function Cart() {
 
         <Link
           to="/products"
-          className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+          className="inline-block bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition"
         >
           상품 보러가기
         </Link>
@@ -46,7 +46,7 @@ export default function Cart() {
             <b>{item.name}</b>
 
             <p className="text-blue-600 font-bold">
-              {(item.quantity*item.price).toLocaleString()}원
+              {(item.quantity * item.price).toLocaleString()}원
             </p>
 
             <div className="flex items-center gap-3 mt-2">
@@ -86,8 +86,13 @@ export default function Cart() {
       </div>
       <button
         onClick={() => {
-          alert("결제가 완료되었습니다!");
-          clearCart();
+          const confirmed = confirm(
+            "정말 결제하시겠습니까?"
+          );
+          if (confirmed) {
+            alert("결제가 완료되었습니다!");
+            clearCart();
+          }
         }}
         className="w-full mt-4 bg-black text-white py-3 rounded font-semibold hover:bg-gray-800"
       >
