@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import type { Product } from "../types/product";
 import { useCartStore } from "../stores/cartStore";
 
 export default function Header() {
