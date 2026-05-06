@@ -26,14 +26,14 @@ export const products: Product[] = [
     id: 4,
     name: "니트 스웨터",
     price: 45000,
-    image: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=400&fit=crop",
+    image: "https://m.byslim.com/web/product/big/202312/3bf05aa84b4b2193445244bf0b39426e.jpg",
     description: "부드러운 울 블렌드 니트. 따뜻하면서도 세련된 디자인.",
   },
   {
     id: 5,
     name: "와이드 팬츠",
     price: 55000,
-    image: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=400&fit=crop",
+    image: "https://ecimg.cafe24img.com/pg327b95887124086/aitchbasic/web/product/big/20240829/5046bbf716d0a49bcee1890e1505654f.jpg",
     description: "편안한 와이드 핏 팬츠. 데일리부터 오피스 룩까지.",
   },
   {
