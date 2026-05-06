@@ -1,10 +1,12 @@
 import { products } from "../data/products";
 import ProductCard from "../components/ProductCard";
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
 
 export default function Products() {
+  const location = useLocation();
   const [search, setSearch] = useState("");
-  const [category, setCategory] = useState("전체");
+  const [category, setCategory] = useState(location.state?.category || "전체");
 
   const categories = ["전체", "상의", "아우터", "하의", "신발", "가방", "소품"];
 
@@ -68,11 +70,14 @@ export default function Products() {
       {filteredProducts.length === 0 ? (
         <p className="text-gray-500">검색 결과가 없습니다.</p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div
+          key={category}
+          className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-[fadeIn_0.5s_ease-out]">
           {sortedProducts.map((product) => (
             <ProductCard
               key={product.id}
               product={product}
+              currentCategory={category}
             />
           ))}
         </div>

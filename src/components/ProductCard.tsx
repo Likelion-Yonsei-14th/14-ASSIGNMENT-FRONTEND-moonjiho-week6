@@ -3,12 +3,14 @@ import { Link } from "react-router-dom";
 
 interface ProductCardProps {
   product: Product;
+  currentCategory: string;
 }
 
-export default function ProductCard({ product }: ProductCardProps) {
+export default function ProductCard({ product, currentCategory }: ProductCardProps) {
   return (
     <Link
       to={`/products/${product.id}`}
+      state={{ category: currentCategory }}
       className="bg-white rounded-lg shadow hover:shadow-lg transition overflow-hidden group"
     >
       <div className="overflow-hidden">
