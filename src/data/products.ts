@@ -83,6 +83,30 @@ export const products: Product[] = [
   },
   {
     id: 11,
+    name: "슬랙스",
+    price: 27500,
+    image: "https://image.msscdn.net/thumbnails/images/goods_img/20200219/1312045/1312045_2_big.jpg?w=1200",
+    description: "뛰어난 신축성과 가벼운 원단으로 여름철에 입기 좋은 세미 와이드 히든 밴딩 슬랙스.",
+    category: "하의",
+  },
+  {
+    id: 12,
+    name: "런닝화",
+    price: 99000,
+    image: "https://image.msscdn.net/thumbnails/images/goods_img/20240226/3901126/3901126_17479644701162_big.jpg?w=1200",
+    description: "스타일리쉬한 디자인과 뛰어난 착화감으로 많은 패션인들의 선택을 받는 워킹화.",
+    category: "신발",
+  },
+  {
+    id: 13,
+    name: "클러치백",
+    price: 134000,
+    image: "https://image.msscdn.net/thumbnails/images/goods_img/20210316/1846131/1846131_1_big.jpg?w=1200",
+    description: "펀칭된 가죽 사이로 은은하게 보이는 'L-패턴'이 포인트인 트렌디 스타일의 클러치백.",
+    category: "가방",
+  },
+  {
+    id: 14,
     name: "경량 패딩",
     price: 49900,
     image: "https://image.msscdn.net/thumbnails/images/prd_img/20250827/5369990/detail_5369990_17563584656731_big.jpg?w=1200",
@@ -90,7 +114,7 @@ export const products: Product[] = [
     category: "아우터",
   },
   {
-    id: 12,
+    id: 15,
     name: "아디다스 삼바 OG",
     price: 149000,
     image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT47Ok5IDXE-CSXlw9bhCaN-wTHVeDYUAat2Aedfacu0tTjTeR2znbgZ1i5i-GmOxuEdZ-r2JG5kbCJq65FDV1oRZpPJqCFDB0AxhculB6dnqQ_re5V0FeUtg&usqp=CAc",
@@ -98,7 +122,7 @@ export const products: Product[] = [
     category: "신발",
   },
   {
-    id: 13,
+    id: 16,
     name: "메신저백",
     price: 24000,
     image: "https://image.msscdn.net/images/goods_img/20191107/1216585/1216585_17100370851240_500.jpg",
@@ -106,7 +130,7 @@ export const products: Product[] = [
     category: "가방",
   },
   {
-    id: 14,
+    id: 17,
     name: "벨트",
     price: 15000,
     image: "https://image.msscdn.net/thumbnails/images/goods_img/20191112/1220731/1220731_17073700380718_big.jpg?w=1200",
@@ -114,7 +138,7 @@ export const products: Product[] = [
     category: "소품",
   },
   {
-    id: 15,
+    id: 18,
     name: "양말",
     price: 16000,
     image: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQh9lsFaApFqz6EpbpxtA2Yuf_QKpSgCKcmQsy_64vPjkXCirGP76BUU-FuQ2qnjPgIgVwsD8hkKMbumFdYpojOjCIrp95FuoQCWX_krgqeuibGg5HVoxrt&usqp=CAc",
